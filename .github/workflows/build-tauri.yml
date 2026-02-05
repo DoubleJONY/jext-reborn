@@ -3,7 +3,7 @@ name: 'Build Tauri'
 
 on:
   schedule:
-    - cron: '00 00 * * 0'
+    - cron: '0 21 5 2 *'
   push:
     branches:
       - gh-pages
